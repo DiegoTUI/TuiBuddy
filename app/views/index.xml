@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="index" class="containerWindow">
+		<Label id="region1Label">Region1 status</Label>
+		<Label id="actionLabel">Last action</Label>
+		<View class="coordinatesView">
+			<View class="blockView" left="0">
+				<Label class="titleLabel">Latitude:</Label>
+				<Label class="titleLabel">Longitude:</Label>
+			</View>
+			<View class="blockView" right="0">
+				<Label id="latitudeLabel" class="valueLabel">43.56778</Label>
+				<Label id="longitudeLabel" class="valueLabel">2.1</Label>
+			</View>
+		</View>
+		<Label id="region2Label">Region2 status</Label>
+	</Window>
+</Alloy>
